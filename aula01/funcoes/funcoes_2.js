@@ -16,6 +16,11 @@ function calculoMedia(nota1, nota2, nota3) {
     return media;
 }
 
-const resultado = calculoMedia(nota1, nota2, nota3)
+const mediaVinicius = calculoMedia(nota1, nota2, nota3)
 
-console.log(resultado);
+console.log(mediaVinicius);
+
+
+const mediaFulano = calculoMedia(8, 10, 6);
+
+console.log(mediaFulano)
