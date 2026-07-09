@@ -15,3 +15,13 @@ function gerarNumeroAleatorio() {
 let numeroGerado = gerarNumeroAleatorio();
 
 console.log("Numero Gerado foi " + numeroGerado);
+
+
+
+function dataAtual() {
+    const data = new Date();
+    return data.getFullYear();
+}
+
+const data = dataAtual();
+console.log(data);
