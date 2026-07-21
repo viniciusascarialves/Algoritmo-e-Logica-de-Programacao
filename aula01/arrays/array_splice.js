@@ -11,4 +11,12 @@ const numeros = [1, 5, 20, 10];
 
 numeros.slice(1, 1, 30);
 
-console.log(numeros);
+//console.log(numeros);
+
+
+const nomes = ["Lucas", "Ana", "Vinicius", "Maria"]
+
+const resultado = nomes.splice(2, 1, "João", "Joaquina")
+
+
+console.log(resultado)
