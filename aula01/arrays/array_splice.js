@@ -19,4 +19,6 @@ const nomes = ["Lucas", "Ana", "Vinicius", "Maria"]
 const resultado = nomes.splice(2, 1, "João", "Joaquina")
 
 
-console.log(resultado)
+console.log(resultado);
+console.log("--------");
+console.log(nomes);
