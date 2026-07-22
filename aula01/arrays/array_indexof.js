@@ -20,3 +20,6 @@ const numeros = [10, 20, 30, 100];
 
 const posicaoNumero = numeros.indexOf(20)
 console.log(posicaoNumero);
+
+const nomes = ["Vinicius", "Lucas", "Ana", "Fulano"];
+//console.log(nomes);
