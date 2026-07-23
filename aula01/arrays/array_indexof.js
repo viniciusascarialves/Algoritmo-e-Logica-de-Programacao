@@ -15,7 +15,7 @@ const posicaoItem = nomes.indexOf("Vinicius")
 //console.log(posicaoItem);
 
 
-const numeros = [10, 20, 30, 10];
+const numeros = [10, 20, 30, 100];
 
 const posicaoNumero = numeros.indexOf(20)
 console.log(posicaoNumero);
