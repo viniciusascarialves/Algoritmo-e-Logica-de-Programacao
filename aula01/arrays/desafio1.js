@@ -12,3 +12,18 @@
 
 
 const cargos = ["fullstack", "frontend", "backend", "mobile"];
+
+
+const posicaoBackend = cargos.indexOf("backend")
+
+if (posicaoBackend !== -1) {
+    cargos.splice(posicaoBackend, 1)
+    console.log("Removendo o cargo backend, ele esta na posicao: " + posicaoBackend)
+    console.log(cargos);
+    return;
+}
+
+if (posicaoBackend === -1) {
+    console.log("Esse item nao foi encontrado na lista de cargos!")
+    console.log(cargos);
+}
