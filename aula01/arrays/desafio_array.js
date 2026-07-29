@@ -4,3 +4,12 @@
 
 -> Você precisa remover o cargo "backend" da lista de cargos pois ese cargo não esta mais disponivel na empresa
 */
+
+
+/*
+## Desafio 2 -
+-> Crie um array com os nomes abaixo:
+["Alice", "Lucas", "Carol", "David"];
+
+-> Voce esta procurando por um nome chamado henrique caso o nome esteja na lista mostre no colsole qual a posicao em que ele esse nome esta na sua lista.
+-> Caso nao encontre esase nome mostre no console
