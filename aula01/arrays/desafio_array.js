@@ -14,3 +14,11 @@
 -> você está procurando por um nome chamado Henrique caso o nome esteja na lista mostre no colsole qual a posicao em que ele esse nome esta na sua lista.
 -> Caso nao encontre esase nome mostre no console o nome procurado e efale que nao foi encontrada na lista
 */
+
+
+/*
+## Desafio 3 -
+Crie um array com esses numeros: [5, 15, 23, 2]
+
+- Voce deve devolver qual e a soma de todos esses numeros usando foreach
+*/
