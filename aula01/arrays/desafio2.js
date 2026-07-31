@@ -9,3 +9,12 @@
 
 
 const nomes = ["Alice", "Lucas", "Carol", "David"];
+
+const nomeBuscado = "Henrique";
+const posicaoNome = nomes.indexOf(nomeBuscado);
+
+if (posicaoNome !== -1) {
+    console.log(`O nome ${nomeBuscado} esta na posicao ${posicaoNome}`)
+} else {
+    console.log(`O ${nomeBuscado} nao foi encontrado nessa lista`)
+}
