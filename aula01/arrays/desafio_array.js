@@ -22,3 +22,10 @@ Crie um array com esses numeros: [5, 15, 23, 2]
 
 - Voce deve devolver qual e a soma de todos esses numeros usando foreach
 */
+
+/*
+## Desafio 4 -
+Crie um array com esses numeros: [6, 12, 5, 9, 14, 27];
+
+- Voce deve devolver um array com todos os numeros que sao multiplos de 3
+*/
