@@ -6,3 +6,9 @@ Crie um array com esses numeros: [6, 12, 5, 9, 14, 27];
 */
 
 const numeros = [6, 12, 5, 9, 14, 27];
+
+const numerosMultiplos = [];
+
+numeros.forEach((numero) => {
+    console.log(numero);
+})
