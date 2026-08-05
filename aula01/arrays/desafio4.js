@@ -10,5 +10,9 @@ const numeros = [6, 12, 5, 9, 14, 27];
 const numerosMultiplos = [];
 
 numeros.forEach((numero) => {
-    console.log(numero);
+    if (numero % 3 === 0) {
+        numerosMultiplos.push(numero)
+    }
 })
+
+console.log(`Lista de numeros multiplos de (3): ${numerosMultiplos}`)
