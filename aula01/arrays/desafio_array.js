@@ -6,6 +6,7 @@
 */
 
 
+
 /*
 ## Desafio 2 -
 -> Crie um array com os nomes abaixo:
@@ -16,12 +17,15 @@
 */
 
 
+
 /*
 ## Desafio 3 -
 Crie um array com esses numeros: [5, 15, 23, 2]
 
 - Voce deve devolver qual e a soma de todos esses numeros usando foreach
 */
+
+
 
 /*
 ## Desafio 4 -
@@ -31,3 +35,7 @@ Crie um array com esses numeros: [6, 12, 5, 9, 14, 27];
 */
 
 
+/*
+## Desafio 5 -
+
+*/
