@@ -6,9 +6,13 @@ const = palavras = ["gato", "cachorro", "elefante", "peixe", "leao"];
 - Voce deve desenvolver um array com todas as palavras que possuem mais de 5 letras
 */
 
-const = palavras = ["gato", "cachorro", "elefante", "peixe", "leao"];
-const palavrasMaiores[];
+const palavras = ["gato", "cachorro", "elefante", "peixe", "leao"];
+const palavrasMaiores = [];
 
 palavras.forEach((palavra) => {
-
+    if(palavra.length > 5) {
+        palavrasMaiores.push(palavra);
+    }
 })
+
+console.log("Palavras maiores que 5 letras sao: " + palavrasMaiores)
