@@ -7,3 +7,8 @@ const = palavras = ["gato", "cachorro", "elefante", "peixe", "leao"];
 */
 
 const = palavras = ["gato", "cachorro", "elefante", "peixe", "leao"];
+const palavrasMaiores[];
+
+palavras.forEach((palavra) => {
+
+})
