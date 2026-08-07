@@ -7,3 +7,7 @@
  })
 
  console.log(numeros);
+
+ console.log("=======")
+
+ console.log(numerosFiltrados)
