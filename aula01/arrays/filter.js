@@ -14,3 +14,11 @@
  //console.log(numerosFiltrados)
 
  const nomes = ["gato", "cachorro", "elefante", "peixe", "leao", "Vinicius"];
+
+ const filtro = nomes.filter((nome) => {
+    if (nome.length > 5) {
+        return nome
+    }
+ })
+
+ console.log(filtro);
