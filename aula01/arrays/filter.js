@@ -9,8 +9,8 @@
     }
  })
 
- console.log(numeros);
+ //console.log(numeros);
+ //console.log("=======")
+ //console.log(numerosFiltrados)
 
- console.log("=======")
-
- console.log(numerosFiltrados)
+ const nomes = ["gato", "cachorro", "elefante", "peixe", "leao", "Vinicius"];
