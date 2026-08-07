@@ -3,7 +3,10 @@
  const numeros = [1, 5, 10, 30, 230];
 
  const numerosFiltrados = numeros.filter((numero) => {
-    return numero > 10
+     
+    if (numero >= 10) {
+        return numero
+    }
  })
 
  console.log(numeros);
