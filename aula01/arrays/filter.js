@@ -31,9 +31,16 @@
 
  const BuscaNome = alunos.find((aluno, index) => {
     if (aluno === "Henrique") {
-        console.log("O Henrique esta na posicao " + index)
+        //console.log("O Henrique esta na posicao " + index)
         return aluno;
     }
  })
 
- console.log(BuscaNome)
+ //console.log(BuscaNome)
+
+ // FindIndex
+ const buscaAluno = alunos.findIndex((aluno) => {
+    return aluno === "Henrique"
+ })
+
+ console.log(buscaAluno)
