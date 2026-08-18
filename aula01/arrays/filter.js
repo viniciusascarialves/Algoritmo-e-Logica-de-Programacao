@@ -21,4 +21,10 @@
     }
  })
 
- console.log(filtro);
+ //console.log(filtro);
+ //console.log(nomes);
+
+
+
+ // - FIND
+ const alunos = ["Matheus", "Lucas", "Henrique"]
