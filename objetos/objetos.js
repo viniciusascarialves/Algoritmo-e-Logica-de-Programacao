@@ -8,11 +8,11 @@ const aluno = {
 
 console.log(aluno);
 console.log(aluno.nome)
-console.log(alunp.idade)
+console.log(aluno.idade)
 
 
 aluno.cargo = "Frontend"
-aluno.status = true
+aluno.status = true;
 
 console.log(aluno["cargo"])
 console.log(aluno.status);
