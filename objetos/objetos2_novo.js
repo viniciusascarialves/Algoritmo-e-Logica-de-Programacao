@@ -1,29 +1,18 @@
-
-const pessoa = {
-    nome: "Vinicius",
-    idade: 18,
-    cargo: "Frontend",
-    saudacao: function () {
-        console.log("Ola eu sou o Vinicius!")
-    }
-}
-
-
-//console.log(pessoa);
-//console.log(saudacao);
-
 const calculos = {
-    soma: function (numero1, numero2) {
-        return numero1 + numero2
+    n1: 15,
+    n2: 30,
+    soma: function () {
+        return this.n1 + this.n2;
     },
-    subtrair: function (numero1, numero2) {
-        return numero1 - numero2;
-    }
+    subtrair: function () {
+        return this.n1 - this.n2
+    },
 }
 
 
-const resultadoSoma = calculos.soma(10, 20)
-console.log(resultadoSoma);
+calculos.n1 = 100;
+calculos.n2 = 50;
 
-const resultadoSubtracao = calculos.subtrair(30, 12)
-console.log(resultadoSubtracao)
+
+const resultado = calculos.subtrair()
+console.log(resultado)
