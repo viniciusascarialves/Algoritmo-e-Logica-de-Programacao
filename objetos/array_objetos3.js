@@ -9,9 +9,9 @@
     { nome: "Jose", telefone: "919110000" },
  ]
 
- const nome = "Matheus";
+ const nome = "Vinicius";
  const contatoPessoa = contatos.find ((contato) => {
     return contato.nome === nome
  })
 
- console.log(contatoPessoa);
+console.log(`O ${nome} tem o telefone: ${contatoPessoa.telefone}`);
