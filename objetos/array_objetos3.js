@@ -14,8 +14,8 @@
     return contato.nome === nome
  })
  
-console.log(`O ${nome} tem o telefone: ${contatoPessoa.telefone}`);
 
+//----------------------------------------------------------
 
 
 function buscaContato(nomePessoa, listaContatos){
@@ -28,5 +28,5 @@ function buscaContato(nomePessoa, listaContatos){
         return contato.nome === nomePessoa
     })
 
-    return
+    return console.log(`O ${nome} tem o telefone: ${contatoPessoa.telefone}`);
 }
