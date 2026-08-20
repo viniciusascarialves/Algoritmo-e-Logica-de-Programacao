@@ -36,6 +36,7 @@ function buscaContato(nomePessoa, listaContatos){
 }
 
 
+
 const pessoa1 = buscaContato("Vinicius", contatos)
 
 console.log(pessoa1)
