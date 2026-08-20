@@ -3,6 +3,9 @@
 > Calcule o total do carinho
 */
 
+
+
+/*
  const carrinho = [
     { nome: "Tenis", preco: 99},
     { nome: "Calca Jeans", preco: 79},
@@ -16,3 +19,23 @@
  })
 
  console.log(`O total do seu carrinho e: ${totalCarinho}`)
+*/
+
+
+
+ //-----------------------------------------------------------
+
+ function calcularTotalCarrinho(carrinho) {
+    let total = 0;
+
+    carrinho.forEach((produto) => {
+        total += produto.preco
+    })
+
+    return `O total do carrinho ficou: ${total}`
+ }
+
+
+ const totalCarinho = calcularTotalCarrinho(carrinho)
+
+ console.log(totalCarinho)
