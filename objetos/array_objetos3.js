@@ -13,5 +13,20 @@
  const contatoPessoa = contatos.find ((contato) => {
     return contato.nome === nome
  })
-
+ 
 console.log(`O ${nome} tem o telefone: ${contatoPessoa.telefone}`);
+
+
+
+function buscaContato(nomePessoa, listaContatos){
+    if (!nomePessoa) {
+        console.log("O nome da pessoa e obrigatoria!");
+        return "";
+    }
+
+    const contatoPessoa = listaContatos.find((contato) => {
+        return contato.nome === nomePessoa
+    })
+
+    return
+}
