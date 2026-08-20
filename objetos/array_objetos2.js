@@ -4,14 +4,13 @@
 */
 
 
-
-/*
  const carrinho = [
     { nome: "Tenis", preco: 99},
     { nome: "Calca Jeans", preco: 79},
     { nome: "Camiseta", preco: 60},
  ]
 
+ /*
  let totalCarinho = 0;
 
  carrinho.forEach((produto) => {
@@ -20,8 +19,6 @@
 
  console.log(`O total do seu carrinho e: ${totalCarinho}`)
 */
-
-
 
  //-----------------------------------------------------------
 
@@ -36,6 +33,6 @@
  }
 
 
- const totalCarinho = calcularTotalCarrinho(carrinho)
+ const totalCarrinho = calcularTotalCarrinho(carrinho)
 
- console.log(totalCarinho)
+ console.log(totalCarrinho)
