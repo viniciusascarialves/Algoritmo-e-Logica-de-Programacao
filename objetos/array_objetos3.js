@@ -8,3 +8,10 @@
     { nome: "Vinicius", telefone: "8210000" },
     { nome: "Jose", telefone: "919110000" },
  ]
+
+ const nome = "Matheus";
+ const contatoPessoa = contatos.find ((contato) => {
+    return contato.nome === nome
+ })
+
+ console.log(contatoPessoa);
