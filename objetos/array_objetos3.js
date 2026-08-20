@@ -28,10 +28,14 @@ function buscaContato(nomePessoa, listaContatos){
         return contato.nome === nomePessoa
     })
 
+    if (!contatoPessoa){
+        return "Ops parece que essa pessoa nao esta na lista de contatos!"
+    }
+
     return `O ${nomePessoa} tem o telefone: ${contatoPessoa.telefone}`;
 }
 
 
-const pessoa1 = buscaContato("Matheus", contatos)
+const pessoa1 = buscaContato("Vinicius", contatos)
 
 console.log(pessoa1)
