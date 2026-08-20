@@ -24,12 +24,13 @@
 
  function calcularTotalCarrinho(carrinho) {
     let total = 0;
+    let totalProdutos = carrinho.length;
 
     carrinho.forEach((produto) => {
         total += produto.preco
     })
 
-    return `O total do carrinho ficou: ${total}`
+    return `Seu carinho tem ${totalProdutos} itens e o total do carrinho ficou: ${total}`
  }
 
 
