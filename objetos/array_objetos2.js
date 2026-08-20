@@ -1,5 +1,7 @@
-
-
+/*
+> Crie um carinho de compras com lista de produtos onde cada produto tem um nome e preco:
+> Calcule o total do carinho
+*/
 
  const carrinho = [
     { nome: "Tenis", preco: 99},
