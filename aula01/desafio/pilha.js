@@ -14,7 +14,15 @@ function criarPilha() {
         elementos.push(elemento)
     }
 
+    function pilhaVazia() {
+        return elementos.length === 0;
+    }
+
     function tamanho() {
+        if (pilhaVazia()) {
+            return "A pilha esta vazia"
+        }
+        
         return elementos.length;
     }
 
@@ -26,7 +34,7 @@ function criarPilha() {
 
 let pilha = criarPilha();
 
-pilha.adicionar(10);
-pilha.adicionar(20);
+//pilha.adicionar(10);
+//pilha.adicionar(20);
 
 console.log(`O tamanho da pilha e ${pilha.tamanho()}`)
