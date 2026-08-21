@@ -43,12 +43,18 @@ function criarPilha() {
         return elementos.pop();
     }
 
+    
+    function limpar() {
+        elemento = [];
+    }
+
     return {
         adicionar,
         tamanho,
         pilhaEstavaVazia,
         topoPilha,
-        remover
+        remover,
+        limpar,
     }
 }
 
@@ -60,5 +66,9 @@ pilha.adicionar(50);
 console.log(`O ultimo elemento da pilha e ${pilha.topoPilha()}`)
 
 console.log(`Removendo o ultimo elemento da pilha ${pilha.remover()}`)
+
+console.log(`O tamanho da pilha e ${pilha.tamanho()}`)
+
+pilha.limpar();
 
 console.log(`O tamanho da pilha e ${pilha.tamanho()}`)
