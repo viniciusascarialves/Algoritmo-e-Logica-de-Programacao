@@ -20,7 +20,7 @@ function criarPilha() {
 
     function tamanho() {
         if (pilhaEstavaVazia()) {
-            return "A pilha esta vazia"
+            return "A pilha esta vazia."
         }
 
         return elementos.length;
@@ -28,18 +28,27 @@ function criarPilha() {
 
     function topoPilha(){
         if(pilhaEstavaVazia()){
-            return "A pilha esta vazia"
+            return "A pilha esta vazia."
         }
 
         return elementos[elementos.length -1]
 
     }
 
+    function remover(){
+        if(pilhaEstavaVazia()){
+            return "A pilha esta vazia."
+        }
+
+        return elementoss.pop();
+    }
+
     return {
         adicionar,
         tamanho,
         pilhaEstavaVazia,
-        topoPilha
+        topoPilha,
+        remover
     }
 }
 
