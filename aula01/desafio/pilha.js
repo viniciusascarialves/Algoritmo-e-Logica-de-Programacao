@@ -40,7 +40,7 @@ function criarPilha() {
             return "A pilha esta vazia."
         }
 
-        return elementoss.pop();
+        return elementos.pop();
     }
 
     return {
@@ -58,5 +58,7 @@ pilha.adicionar(10);
 pilha.adicionar(20);
 pilha.adicionar(50);
 console.log(`O ultimo elemento da pilha e ${pilha.topoPilha()}`)
+
+console.log(`Removendo o ultimo elemento da pilha ${pilha.remover()}`)
 
 console.log(`O tamanho da pilha e ${pilha.tamanho()}`)
