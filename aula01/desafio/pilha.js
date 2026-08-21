@@ -22,8 +22,16 @@ function criarPilha() {
         if (pilhaVazia()) {
             return "A pilha esta vazia"
         }
-        
+
         return elementos.length;
+    }
+
+    function topoPilha(){
+        if(pilhaVazia()){
+            return "A pilha esta vazia"
+        }
+
+        return
     }
 
     return {
