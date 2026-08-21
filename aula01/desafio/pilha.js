@@ -45,7 +45,7 @@ function criarPilha() {
 
     
     function limpar() {
-        elemento = [];
+        elementos = [];
     }
 
     return {
