@@ -69,6 +69,7 @@ console.log(`Removendo o ultimo elemento da pilha ${pilha.remover()}`)
 
 console.log(`O tamanho da pilha e ${pilha.tamanho()}`)
 
+console.log(`Limpando a pilha agora...`)
 pilha.limpar();
 
-console.log(`O tamanho da pilha e ${pilha.tamanho()}`)
+console.log(`${pilha.tamanho()}`)
