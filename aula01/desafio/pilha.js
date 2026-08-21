@@ -47,6 +47,7 @@ let pilha = criarPilha();
 
 pilha.adicionar(10);
 pilha.adicionar(20);
+pilha.adicionar(50);
 console.log(`O ultimo elemento da pilha e ${pilha.topoPilha()}`)
 
 console.log(`O tamanho da pilha e ${pilha.tamanho()}`)
